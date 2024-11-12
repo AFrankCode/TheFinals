@@ -1,4 +1,4 @@
-const NavBar = () => {
+/* const NavBar = () => {
     return (
         <nav class=" navbar navbar-expand-lg bg-body-tertiary">
         <div class=" container-fluid">
@@ -35,8 +35,22 @@ const NavBar = () => {
             </form>
           </div>
         </div>
-      </nav>
+        </nav>
     );
   };
   
-  export default NavBar;
+  export default NavBar; */
+
+  import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Navbar = () => {
+  return (
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="/cart">Cart</Link>
+    </nav>
+  );
+};
+
+export default Navbar;
