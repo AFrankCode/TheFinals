@@ -1,13 +1,3 @@
-/* const ProductList = () => {
-    return (
-      <div>
-        <h1>Header</h1>
-      </div>
-    );
-  };
-  
-  export default ProductList; */
-
 import React, { useContext } from "react";
 import { ProductContext } from "../context/ProductContext";
 import { Link } from "react-router-dom";

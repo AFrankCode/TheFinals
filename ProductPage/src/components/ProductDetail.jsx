@@ -1,12 +1,3 @@
-/* const ProductDetail = () => {
-     return (
-      <div>
-         <h1>Header</h1>
-      </div>
-    );
-  };
-  
-  export default ProductDetail; */
 import React, { useContext, useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ProductContext } from "../context/ProductContext";
